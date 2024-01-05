@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (libwinutils.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling Messages
+  MC: Compiling winutils.mc
+  hadoopwinutilsvc_s.c
+  service.c
+  readlink.c
+  symlink.c
+  systeminfo.c
+C:\programming\hadoop\hadoop-3.3.6-src\hadoop-common-project\hadoop-common\src\main\winutils\systeminfo.c(117,12): warning C4013: 'GetDiskAndNetwork' undefined; assuming extern returning int
+C:\programming\hadoop\hadoop-3.3.6-src\hadoop-common-project\hadoop-common\src\main\winutils\systeminfo.c(197,12): warning C4013: 'ReadTotalCounter' undefined; assuming extern returning int
+C:\programming\hadoop\hadoop-3.3.6-src\hadoop-common-project\hadoop-common\src\main\winutils\systeminfo.c(154,9): warning C4101: 'i': unreferenced local variable
+C:\programming\hadoop\hadoop-3.3.6-src\hadoop-common-project\hadoop-common\src\main\winutils\systeminfo.c(235,1): warning C4142: 'ReadTotalCounter': benign redefinition of type
+  chmod.c
+  chown.c
+  groups.c
+  hardlink.c
+  task.c
+  ls.c
+  main.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 221 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  winutils.vcxproj -> C:\programming\hadoop\hadoop-3.3.6-src\hadoop-common-project\hadoop-common\src\main\winutils\x64\Release\winutils.exe
